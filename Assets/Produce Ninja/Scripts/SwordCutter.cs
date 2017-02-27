@@ -19,6 +19,6 @@ public class SwordCutter : MonoBehaviour {
             temp.convex = true;
         }
 
-        Destroy(pieces[1], 1);
+       // Destroy(pieces[1], 1);
     }
 }
