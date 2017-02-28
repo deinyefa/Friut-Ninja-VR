@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HitTarget : MonoBehaviour
+public class Target : MonoBehaviour
 {
 
     private AudioSource audioSource;
@@ -17,7 +17,6 @@ public class HitTarget : MonoBehaviour
     {
         if (other.gameObject.tag == "projectile")
         {
-            Debug.Log("hit target");
             audioSource.PlayOneShot(hitTargetSound);
         }
     }
